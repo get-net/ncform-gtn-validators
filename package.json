@@ -1,6 +1,6 @@
 {
   "name": "ncform-gtn-validators",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "custom validators for ncform",
   "main": "index.js",
   "scripts": {
