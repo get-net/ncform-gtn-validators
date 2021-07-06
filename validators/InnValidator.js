@@ -4,7 +4,7 @@ class SnilValidator extends ncformCommon.ValidationRule {
     constructor(props) {
         super(props);
         this.name = "inn";
-        this.defaultErrMsg = "inn"
+        this.defaultErrMsg = "Неправильно указан инн"
     }
 
     validateLogic(inn) {

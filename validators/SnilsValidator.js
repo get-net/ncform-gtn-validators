@@ -1,10 +1,10 @@
 import ncformCommon from '@ncform/ncform-common';
 
-class SnilValidator extends ncformCommon.ValidationRule {
+class SnilsValidator extends ncformCommon.ValidationRule {
     constructor(props) {
         super(props);
         this.name = "snils";
-        this.defaultErrMsg = "Bad snils"
+        this.defaultErrMsg = "Неправильно указан снилс"
     }
 
     validateLogic(gps) {
@@ -27,4 +27,4 @@ class SnilValidator extends ncformCommon.ValidationRule {
 
 }
 
-export default SnilValidator;
+export default SnilsValidator;

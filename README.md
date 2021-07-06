@@ -31,7 +31,9 @@ Describe validation options in rule section of property
 
 ## Features
 
-At this momments library provides only snils and inn validators, but you are free to add some more
+At this momments library provides validators for БИК(bik), ИНН(inn), СНИЛС(snils), КПП(kpp), Корр.счет(ks), ОГРН(ogrn), ОГРНИП(ogrnip)
+
+
 
 ## Contribution
 
